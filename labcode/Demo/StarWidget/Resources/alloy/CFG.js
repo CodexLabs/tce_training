@@ -1,0 +1,1 @@
+module.exports={"dependencies":{"starrating":"1.0","com.appcelerator.searchForBooks":"1.0"}};

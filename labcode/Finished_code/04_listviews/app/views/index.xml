@@ -1,6 +1,15 @@
-<Alloy>
-	<TabGroup>
-		<Require src="tabletab" id="tabletab"/>
-		<Require src="listtab" id="listtab"/>
-	</TabGroup>
-</Alloy>
+<Alloy> 
+     <Window backgroundColor="white" layout="vertical" exitOnClose="true"> 
+	<OptionDialog id="dialog" title="Delete File?"> 	     
+	     <Options> 
+		<Option>Confirm</Option> 
+		<Option platform="ios">Help</Option>
+		<Option>Cancel</Option>
+	     </Options> 
+	     <!-- The ButtonNames tag sets the Android-only buttonNames property. --> 
+	     <ButtonNames> 
+		<ButtonName>Confirm</ButtonName>
+	     </ButtonNames> 
+	</OptionDialog> 
+     </Window> 
+</Alloy> 

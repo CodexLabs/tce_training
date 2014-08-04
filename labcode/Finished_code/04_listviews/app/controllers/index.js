@@ -1,1 +1,3 @@
+$.dialog.show(); 
+
 $.index.open();

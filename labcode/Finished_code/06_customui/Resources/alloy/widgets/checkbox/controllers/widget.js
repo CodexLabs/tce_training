@@ -1,12 +1,12 @@
 function WPATH(s) {
-    var index = s.lastIndexOf("/"), path = index === -1 ? "checkbox/" + s : s.substring(0, index) + "/checkbox/" + s.substring(index + 1);
+    var index = s.lastIndexOf("/"), path = -1 === index ? "checkbox/" + s : s.substring(0, index) + "/checkbox/" + s.substring(index + 1);
     return path;
 }
 
 function Controller() {
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     $model = arguments[0] ? arguments[0].$model : null;
-    var $ = this, exports = {}, __defers = {};
+    var $ = this, exports = {};
     $.__views.checkbox = Ti.UI.createView({
         height: Ti.UI.SIZE,
         width: Ti.UI.SIZE,
@@ -47,7 +47,7 @@ function Controller() {
     _.extend($, $.__views);
     var args = arguments[0] || {};
     exports.init = function(callback) {
-        $.lbl.text = args.message || "Set \"message\" attribute to change";
+        $.lbl.text = args.message || 'Set "message" attribute to change';
         var checkState = !1;
         $.checkbox.addEventListener("click", function() {
             checkState = !checkState;

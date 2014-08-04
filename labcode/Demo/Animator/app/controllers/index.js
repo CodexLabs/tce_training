@@ -6,7 +6,7 @@ var collision = Ti.UI.iOS.createCollisionBehavior();
 
 // Simulate Earth's gravity
 var gravity = Ti.UI.iOS.createGravityBehavior({
-    gravityDirection: {x: 0.0, y: 1.0}
+    gravityDirection: {x: 1.0, y: 1.0}
 });
 
 // Create a bunch of random blocks; add to the window and behaviors

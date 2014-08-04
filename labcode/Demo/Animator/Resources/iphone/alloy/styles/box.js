@@ -1,1 +1,1 @@
-module.exports = [{"isId":true,"priority":100000.0002,"key":"box","style":{height:25,width:25,}}];
+module.exports = [{"isId":true,"priority":100000.0002,"key":"box","style":{height:85,width:85,}}];

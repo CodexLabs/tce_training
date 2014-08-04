@@ -1,5 +1,5 @@
 <Alloy>
 	<Window class="container">
-		<Widget id="checkbox" src="checkbox" color="red" message="Click to check/uncheck" left="30"/>
+		<Widget id="checkbox" src="checkbox" randomthing="foo" color="green" message="do not Click to check/uncheck" left="30"/>
 	</Window>
 </Alloy>

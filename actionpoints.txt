@@ -1,0 +1,4 @@
+we need to discuss what the actual best pratice for orientation change is, because the current best pratice does not work.
+I updated that slide (60) with what the guides claim are the best pratice
+
+What are these apps in slide 151 and can we get their source?

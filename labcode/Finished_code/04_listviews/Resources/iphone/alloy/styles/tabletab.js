@@ -1,0 +1,1 @@
+module.exports = [{"isApi":true,"priority":1000.0016,"key":"Window","style":{backgroundColor:"white",}},{"isApi":true,"priority":1101.0019,"key":"Tab","style":{icon:"KS_nav_ui.png",}},{"isId":true,"priority":100101.0017,"key":"table","style":{separatorStyle:Titanium.UI.iPhone.TableViewSeparatorStyle.NONE,}}];

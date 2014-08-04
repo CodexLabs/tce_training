@@ -1,5 +1,5 @@
 var args = arguments[0] || {};
-
+alert(args);
 exports.init = function (callback) {
 	$.lbl.text = args.message || 'Set "message" attribute to change';
 	var checkState = false;
